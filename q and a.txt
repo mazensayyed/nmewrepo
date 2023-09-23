@@ -69,3 +69,4 @@ A10: In Azure DevOps, YAML (YAML Ain't Markup Language) files are used to define
 
 Q11: What is a Variable Group, and what is the use of a Variable Group in Azure DevOps?
 A11: A Variable Group in Azure DevOps is a collection of variables that can be reused across multiple pipelines and stages. It allows you to define and manage a
+siofcjsdocfjsofjs0ofjs9fsofmsiofj osofikofjofjsofjj
