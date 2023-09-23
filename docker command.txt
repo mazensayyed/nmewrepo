@@ -1,0 +1,41 @@
+ 1  yum install docker -y
+    2  service docker start
+    3  service docker status
+    4  which docker
+    5  which umantu
+    6  which tomcat
+    7  which nginx
+    8  ckear
+    9  clear
+   10  docker infp
+   11  docker info
+   12   docker ps
+   13  docker ps -a
+   14  docker run -it ubantu /bin/bash
+   15  docker run -it ubuntu /bin/bash
+   16  docker images
+   17  docker run -it ubuntu /bin/bash
+   18  docker images
+   19  docker ps
+   20  clea4
+   21  clear
+   22  docker ps -a
+   23  docker images
+   24  docker run -it centos /bin/bash
+   25  fff
+   26  docker images
+   27*
+   28  docker run -it centos /bin/bash
+   29  docker run -it --name mazher ubunatu bin/bash
+   30  docker run -it --name mazher ubuntu bin/bash
+   31  docker ps
+   32  docker ps -a
+   33  docker start mazher
+   34  docker ps
+   35  docker start admiring_swartz
+   36  docker ps
+   37  docker attach admiring_swartz
+   38  docker rm mazher
+   39  docker stop mazher
+   40  docker rm mazher
+   41  history

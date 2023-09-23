@@ -1,0 +1,17 @@
+# Use Ubuntu as the base image
+FROM ubuntu:latest
+
+# Update the package repository and install Nginx
+RUN apt-get update && apt-get install -y nginx
+
+# Remove the default Nginx configuration
+RUN rm -rf /etc/nginx/sites-enabled/default
+
+# Copy your custom Nginx configuration file
+COPY nginx.conf /etc/nginx/sites-enabled/nginx.conf
+
+# Expose port 80 for Nginx
+EXPOSE 80
+
+# Start Nginx when a container is run from the image
+CMD ["nginx", "-g", "daemon off;"]

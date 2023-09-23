@@ -1,0 +1,71 @@
+Q1: What is Azure DevOps?
+A1: Azure DevOps is a cloud-based platform that provides development tools and services for software development teams. It includes features for source code management, build automation, continuous integration and deployment (CI/CD), testing, and project management.
+
+Q2: What are the benefits of DevOps?
+A2: The benefits of DevOps include improved collaboration between teams, faster software delivery, enhanced software quality through automation and testing, increased efficiency with automation of repetitive tasks, better visibility and traceability of the development process, and improved reliability of software systems.
+
+Q3: Mention various phases of DevOps.
+A3: The various phases of DevOps include Plan, Code, Build, Test, Deploy, Operate, and Learn. These phases represent the continuous cycle of planning, coding, building, testing, deploying, monitoring, and learning from feedback in the software development process.
+
+Q4: What is Azure Boards?
+A4: Azure Boards is a work tracking system within Azure DevOps that helps teams plan, track, and discuss work. It provides tools for backlog management, sprint planning, task tracking, and reporting.
+
+Q5: What is Azure Repos?
+A5: Azure Repos is a version control system in Azure DevOps that supports Git and Team Foundation Version Control (TFVC). It allows teams to store and manage their source code, collaborate on code reviews, and track changes made by team members.
+
+Q6: What is CI and CD pipeline?
+A6: CI stands for Continuous Integration, which is a practice where developers frequently integrate their code changes into a shared repository. CD stands for Continuous Deployment or Continuous Delivery, which involves automating the process of deploying software to production. Together, CI/CD pipelines automate the building, testing, and deployment of applications.
+
+Q7: What is an Artifact?
+A7: An artifact in DevOps refers to a deployable output generated during the build process, such as an executable file, a container image, or a configuration file. It is used in subsequent stages of the CI/CD pipeline.
+
+Q8: What tools are available for CI/CD pipelines?
+A8: There are several tools available for CI/CD pipelines, including Azure Pipelines (built-in to Azure DevOps), Jenkins, CircleCI, Travis CI, GitLab CI/CD, and many others.
+
+Q9: How can we integrate Sonar Cloud/SonarQube for highlighting code vulnerability in DevOps?
+A9: Sonar Cloud/SonarQube can be integrated into the CI/CD pipeline by using a SonarScanner. The scanner analyzes the source code for potential vulnerabilities and issues and provides feedback. The integration helps highlight code vulnerabilities and improve code quality.
+
+Q10: In which pipeline can we integrate test cases?
+A10: Test cases can be integrated into the CI/CD pipeline in the "Test" phase. This phase involves running automated tests to ensure the code meets quality standards before deployment.
+
+Q11: What is continuous monitoring?
+A11: Continuous monitoring is the practice of regularly collecting and analyzing data from systems, applications, and infrastructure to identify and resolve issues in real-time. It helps ensure the stability, performance, and security of the software system.
+
+Q12: List out some useful tools for continuous monitoring.
+A12: Some useful tools for continuous monitoring include Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, and Kibana), Datadog, New Relic, and Nagios.
+
+Q13: Comparison between DevOps and Agile methodology.
+A13: DevOps and Agile are complementary but different approaches. Agile focuses on iterative and incremental development, emphasizing flexibility and customer collaboration. DevOps
+
+Q1: List out some useful tools for continuous monitoring.
+A1: Some useful tools for continuous monitoring are Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, and Kibana), Datadog, New Relic, and Nagios.
+
+Q2: Make a comparison between DevOps and Agile methodology.
+A2: DevOps and Agile are complementary but different approaches. Agile focuses on iterative and incremental development, emphasizing flexibility and customer collaboration. DevOps, on the other hand, focuses on integrating development and operations teams to enable faster and more reliable software delivery through automation, continuous integration, and deployment.
+
+Q3: Made a comparison between VSTS and Azure DevOps.
+A3: VSTS (Visual Studio Team Services) was the previous name for Azure DevOps. Azure DevOps is an evolution of VSTS and includes all the features and capabilities of VSTS, but with additional enhancements and integrations. Essentially, Azure DevOps is the rebranded and expanded version of VSTS.
+
+Q4: Explain Containers and Azure DevOps supports which containers.
+A4: Containers are lightweight and isolated environments that package software and its dependencies, allowing applications to run consistently across different computing environments. Azure DevOps supports various containers, including Docker containers, which are widely used for packaging and deploying applications.
+
+Q5: Why should we use Azure Pipelines, continuous integration, and continuous development?
+A5: Azure Pipelines, along with continuous integration and continuous development, offer several benefits. They enable automation of the build, test, and deployment process, leading to faster software delivery, improved quality through automated testing, reduced manual effort, better collaboration among teams, and increased efficiency and reliability of software releases.
+
+Q6: Have you ever used PowerShell script for creating any infrastructure?
+A6: As an AI language model, I don't have personal experiences. However, PowerShell is a popular scripting language for managing and automating infrastructure in the Microsoft ecosystem.
+
+Q7: Do you have any experience in PowerShell scripting?
+A7: As an AI language model, I have knowledge of PowerShell scripting and can assist with providing information and guidance on PowerShell-related topics.
+
+Q8: What is an ARM template, and in your current project, where and why have you used an ARM template?
+A8: An ARM (Azure Resource Manager) template is a JSON file that defines the infrastructure and resources needed for an application in Azure. It allows you to define and deploy resources consistently and reliably. As an AI language model, I don't have a personal project, so I don't have any specific use cases for ARM templates. However, they are commonly used for infrastructure provisioning and deployment in Azure.
+
+Q9: What is Terraform, and in your current project, where and why have you used Terraform?
+A9: Terraform is an open-source infrastructure as code tool that allows you to define and provision infrastructure resources across multiple cloud providers. It provides a declarative syntax to define infrastructure configurations. As an AI language model, I don't have a personal project, so I don't have any specific use cases for Terraform. However, it is commonly used to manage and provision infrastructure resources in a multi-cloud or hybrid cloud environment.
+
+Q10: What is a YAML file in Azure DevOps?
+A10: In Azure DevOps, YAML (YAML Ain't Markup Language) files are used to define the build and release pipeline configurations as code. It provides a way to version control and manage the pipeline configurations alongside the application code.
+
+Q11: What is a Variable Group, and what is the use of a Variable Group in Azure DevOps?
+A11: A Variable Group in Azure DevOps is a collection of variables that can be reused across multiple pipelines and stages. It allows you to define and manage a
